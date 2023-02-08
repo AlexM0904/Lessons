@@ -1,0 +1,78 @@
+.main {
+    padding: 30px;
+}
+
+.header {
+    margin: 10px;
+}
+
+[class*="__container"] {
+    color: green;
+}
+
+.nav {
+    padding: 20px;
+}
+
+.nav_link {
+    text-decoration: none;
+    margin-right: 15px;
+    color: red;
+}
+
+.nav_link:hover {
+    color: orange;
+}
+
+/*[class*="__container"] {
+    color: blue;
+}*/
+
+.text1,
+.text2 {
+    margin: 0 auto;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #000;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+text1~p {
+    color: crimson;
+}
+
+
+.text1 p:nth-child(3),
+:nth-child(5) {
+    color: red;
+}
+
+/*.text2~p {
+    color: green;
+}*/
+
+.text2>p {
+    color: green;
+}
+
+.text2 .beyourself {
+    color: blueviolet;
+}
+
+.text2+h6 {
+    color: brown;
+}
+
+.text2~h6 {
+    color: navy;
+}
+
+.text1 * {
+    color: darkcyan;
+}
+
+p {
+    margin-bottom: 10px;
+}
